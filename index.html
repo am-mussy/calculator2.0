@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator 2.0</title>
+    <link rel="stylesheet" href="css/null.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="main">
+        
+        <div class="input">
+            <form name="form">
+                <input name="textview" type="text" readonly>
+            </form>
+        </div>
+
+        <div id="C" class="item clean"onclick="calk.clean()">C</div>
+        <div class="item back" onclick="back()">&larr;</div>
+        <div class="item" onclick="calk.insert('-')">-</div>
+        <div class="item" onclick="calk.insert('+')">+</div>
+        <div class="item" onclick="calk.insert('*')">x</div>
+        <div class="item" onclick="calk.insert('/')">&divide;</div>
+        <div class="item" onclick="calk.insert('7')">7</div>
+        <div class="item" onclick="calk.insert('8')">8</div>
+        <div class="item" onclick="calk.insert('9')">9</div>
+        <div class="item" onclick="calk.insert('(')">(</div>
+        <div class="item" onclick="calk.insert('5')">5</div>
+        <div class="item" onclick="calk.insert('6')">6</div>
+        <div class="item" onclick="calk.insert('7')">7</div>
+        <div class="item" onclick="calk.insert(')')">)</div>
+        <div class="item" onclick="calk.insert('1')">1</div>
+        <div class="item" onclick="calk.insert('2')">2</div>
+        <div class="item" onclick="calk.insert('3')">3</div>
+        <div id="equl"class="item equal" onclick="calk.equl()">=</div>
+        <div class="item zero" onclick="calk.insert('0')">0</div>
+        <div class="item" onclick="calk.insert('.')">.</div>
+        
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/calculator.js"></script>
+</body>
+
+</html>
